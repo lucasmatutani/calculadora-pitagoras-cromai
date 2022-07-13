@@ -1,0 +1,75 @@
+.form-container {
+    width: 50%;
+  }
+  
+  .form-content {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .form-content h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    font-weight: normal;
+    color: var(--color-dark);
+    text-transform: uppercase;
+  }
+  
+  .form-content p {
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: var(--color-dark);
+    margin-right: 0.5rem;
+  }
+  
+  .input-group input {
+    padding: 0.8rem;
+    color: var(--color-dark);
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    border: none;
+    border-radius: 0.25rem;
+    outline: none;
+  }
+  
+  .input-group button {
+    background-color: var(--color-green-cromai);
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 0.7rem;
+    padding: 0.8rem 1rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .input-group button:hover {
+    background-color: #95bf40;
+  }
+  
+  /* MOBILE BREAKPOINTS ================= */
+  @media (max-width: 768px) {
+    .form-container {
+      width: 100%;
+    }
+  
+    .form-content {
+      padding: 2.5rem 2rem;
+    }
+  }
