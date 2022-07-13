@@ -1,0 +1,56 @@
+.triangle-container {
+    width: 50%;
+  }
+  
+  .triangle-content {
+    padding: 10rem 0 2rem 2rem;
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid var(--color-red-cromai);
+    border-right: 200px solid transparent;
+    position: relative;
+  }
+  
+  .triangle-side {
+    position: absolute;
+    font-size: 1.2rem;
+    color: var(--color-dark);
+    font-weight: 500;
+  }
+  
+  .triangle span{
+    font-weight: 700;
+  }
+  
+  #a-side {
+    top: 4.8rem;
+    left: 7rem;
+  }
+  
+  #b-side {
+    top: 12.7rem;
+    left: 3.7rem;
+  }
+  
+  #c-side {
+    top: 5.9rem;
+    right: 1rem;
+  }
+  
+  /* MOBILE BREAKPOINTS ================= */
+  @media (max-width: 768px) {
+    .triangle-container {
+      width: 100%;
+    }
+  
+    .triangle-content {
+      padding: 0 2rem 2rem 2rem;
+    }
+  
+    .triangle {
+      margin: 0 auto;
+    }
+  }
